@@ -1,5 +1,4 @@
 
----
 
 # Comparing TabPFNClassifier with Other Machine Learning Models
 
@@ -15,12 +14,12 @@ This project evaluates the performance of the **TabPFNClassifier** in comparison
 7. [How to Run](#how-to-run)
 8. [License](#license)
 
----
+
 
 ## Introduction
 The **TabPFNClassifier** is a tabular-specific pretrained feedforward neural network designed to deliver high accuracy on tabular data. This project benchmarks its performance against traditional machine learning models to identify scenarios where it excels and areas where it may face limitations.
 
----
+
 
 ## Objective
 The primary goal of this project is to compare the performance of **TabPFNClassifier** with other popular models, including Logistic Regression, Gaussian Naive Bayes, k-Nearest Neighbors (k-NN), Decision Trees, and Support Vector Machines (SVM). The comparison evaluates:
@@ -28,7 +27,7 @@ The primary goal of this project is to compare the performance of **TabPFNClassi
 - **Fit Time**: The time taken to train the model.
 - **Predict Time**: The time required for making predictions.
 
----
+
 
 ## Datasets
 The datasets used for evaluation are:
@@ -36,7 +35,7 @@ The datasets used for evaluation are:
 2. **Iris**: Classifies iris flowers into three species.
 3. **Wine**: Categorizes wine into three classes based on chemical properties.
 
----
+
 
 ## Models
 The models included in this study are:
@@ -47,7 +46,7 @@ The models included in this study are:
 5. Decision Tree
 6. Support Vector Machine (SVM) with RBF kernel
 
----
+
 
 ## Results
 
@@ -72,7 +71,7 @@ The models included in this study are:
 | wine           | SVM                 | 0.983051  | 0.741243      | 0.000000          |
 | wine           | TabPFNClassifier    | 1.000000  | 0.998259      | 269.511700        |
 
----
+
 
 ## Conclusion
 
@@ -91,7 +90,7 @@ The models included in this study are:
 - Use **TabPFNClassifier** for scenarios requiring top-tier accuracy, particularly when prediction speed is not a constraint.
 - For real-time applications or larger datasets, consider faster models like **GaussianNB** or **DecisionTree**.
 
----
+
 
 ## How to Run
 
@@ -116,9 +115,9 @@ jupyter notebook main.ipynb
 2. **Interactive Time Graph**: Compares fit and predict times across models.
 3. **Results DataFrame**: A tabular summary of metrics.
 
----
+
 
 ## License
 This project is licensed under the MIT License.
 
----
+
